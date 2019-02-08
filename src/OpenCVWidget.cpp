@@ -16,7 +16,7 @@ OpenCVWidget::OpenCVWidget(QWidget *parent) :
     btRecord = new QPushButton(QIcon(":/imagenes/Record.png"), "", this);
     btRecord->setCheckable(true);
     btRecord->setChecked(false);
-    btRecord->setVisible(false);
+    btRecord->setVisible(true);
 
     lbTitle = new QLabel("---");
     lbTitle->setMaximumHeight(15);
