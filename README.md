@@ -8,9 +8,12 @@
 ## Configuración
 Abrir una ventana Terminal y ejecutar los siguientes comandos.
 
-###Instalar Homebrew
+### Instalar Homebrew
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 	
-###Instalar opencv
+### Instalar opencv
 	brew search opencv
 	brew install opencv@2
+	
+### Fixing Xcode is not installed in /Developer/Xcode.app/Contents/Developer
+	sudo /usr/bin/xcode-select -switch /Applications/Xcode.app/Contents/Developer 
