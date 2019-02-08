@@ -1,0 +1,11 @@
+Win32
+Debug
+Release
+GeneratedFiles
+bin
+obj
+*.vspscc
+*.suo
+*.sdf
+*.DS_Store
+*.pro.user
