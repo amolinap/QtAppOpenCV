@@ -17,8 +17,8 @@
 
 #if USE_OPENCV
 
-#include <core/core.hpp>
-#include <highgui/highgui.hpp>
+#include "opencv2/core/core.hpp"
+#include "opencv2/highgui/highgui.hpp"
 
 #endif
 

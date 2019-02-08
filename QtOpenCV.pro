@@ -23,15 +23,15 @@ ICON = icono.icns
 
 include(QtOpenCV.pri)
 
-INCLUDEPATH += /opt/local/include/opencv2/ \
+INCLUDEPATH += /usr/local/opt/opencv@2/include/ \
 
-LIBS += /opt/local/lib/libopencv_core.dylib \
-        /opt/local/lib/libopencv_highgui.dylib \
-        /opt/local/lib/libopencv_imgproc.dylib \
-        /opt/local/lib/libopencv_features2d.dylib
+LIBS += /usr/local/opt/opencv@2/lib/libopencv_core.dylib \
+        /usr/local/opt/opencv@2/lib/libopencv_highgui.dylib \
+        /usr/local/opt/opencv@2/lib/libopencv_imgproc.dylib \
+        /usr/local/opt/opencv@2/lib/libopencv_features2d.dylib
 
-LIBS += -L/opt/local/lib  -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_contrib -lopencv_calib3d
-LIBS += -L/opt/local/lib -lopencv_features2d -lopencv_video -lopencv_objdetect  -lopencv_legacy -lopencv_flann -lopencv_gpu
+LIBS += -L/usr/local/opt/opencv@2/lib  -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_contrib -lopencv_calib3d
+LIBS += -L/usr/local/opt/opencv@2/lib -lopencv_features2d -lopencv_video -lopencv_objdetect  -lopencv_legacy -lopencv_flann -lopencv_gpu
 
 SOURCES += src/main.cpp \
     src/OpenCVWidget.cpp \

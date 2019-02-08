@@ -4,8 +4,8 @@
 #include <QTimer>
 #include <sys/times.h>
 #include <unistd.h>
-#include <imgproc/imgproc.hpp>
-#include <core/types_c.h>
+#include "opencv2/imgproc/imgproc.hpp"
+#include "opencv2/core/types_c.h"
 
 
 videoStabilizer::videoStabilizer(QRect videoSize, QObject *parent):
