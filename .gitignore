@@ -9,3 +9,4 @@ obj
 *.sdf
 *.DS_Store
 *.pro.user
+*.user
